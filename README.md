@@ -56,7 +56,7 @@ add_principal identifier.license:YOUR_LICENSE group.admin
 Questions, bugs or ideas: join the Discord, https://discord.gg/vea5eC334Z
 
 ## Performance
-No loops or threads. The script does nothing until a player runs `/commands` (or an admin adds an entry), so idle resource time is 0.00ms.
+No loops or threads. The script does nothing until a player runs `/commands` (or an admin adds an entry), so it should use no resource time while idle.
 
 ## License
 See `LICENSE`: free to use on your own server, no reselling or redistributing.
