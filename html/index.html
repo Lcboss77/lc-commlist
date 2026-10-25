@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="command-container" style="display: none;">
+        <div class="header">
+            <h1>Game Commands</h1>
+            <button id="close-btn" class="close-btn">&times;</button>
+        </div>
+        <div class="category-tabs">
+            <div class="tab active" data-tab="commands">Commands</div>
+            <div class="tab" data-tab="keybinds">Keybinds</div>
+        </div>
+        <div class="content">
+            <div id="commands" class="tab-content active">
+                <div id="commands-list" class="command-list"></div>
+            </div>
+            <div id="keybinds" class="tab-content">
+                <div id="keybinds-list" class="command-list"></div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="./index.js" type="text/javascript"></script>
+
+</body>
+</html>
